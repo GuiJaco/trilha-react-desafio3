@@ -7,3 +7,7 @@ export const defaultValues: IFormLogin = {
     email: '',
     password: ''
 }
+
+export interface IButton {
+    disabled: Boolean;
+}
